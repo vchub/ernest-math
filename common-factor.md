@@ -1,19 +1,16 @@
-Homework:
+#### Homework
 
 1. problems: 11-17
    <https://www.yaklass.ru/p/matematika/6-klass/otnosheniia-proportcii-protcenty-13922/otnoshenie-dvukh-chisel-13923>
 
-2. # Вынесение общего множителя за скобки: Объяснение и стратегия
+2. Quiz:
+   <https://math-gym-e1325.web.app/quiz/5X8X3mOJmtBlGdoWmI5j>
 
-   <https://math-gym-e1325.web.app>
-
-   Первый Тест: Вынесение общего множителя за скобки
+3. Задачи в конце страницы
 
 ---
 
-Theory and Problems:
-
-# Вынесение общего множителя за скобки: Краткое руководство
+### Вынесение общего множителя за скобки: Краткое руководство
 
 ## 1. Что это такое?
 
