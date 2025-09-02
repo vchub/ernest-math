@@ -106,3 +106,21 @@ $$ab - ac = a(b - c)$$
     - `6m / (3m) = 2`
 
 ---
+
+### Homework:
+
+1. Quiz: https://math-gym-e1325.web.app/quiz/xGbL7v98ceJA7vPLah4g
+
+---
+
+- Залогиниться с гугл эккаунт
+- Сделать тест
+- Добавить vlad.chub@gmail в разделе:
+  Account -> Grant Viewing Access (форма)
+
+- Так-же добавьте гугл эккаунт родиля(ей), им нужно сначал залогинться на сайте
+  https://math-gym-e1325.web.app
+
+---
+
+3. Quiz: https://math-gym-e1325.web.app/quiz/NrSXjbck1v8VBKRug9qG
