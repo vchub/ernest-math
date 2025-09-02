@@ -1,0 +1,43 @@
+{
+  "title": "Math & Physics Fundamentals Quiz 2",
+  "description": "example description $2x + 3 = 11$?",
+  "tutorial": "https://www.khanacademy.org/math/algebra",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the value of $x$ in the equation $2x + 3 = 11$?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "To solve for $x$, first subtract 3 from both sides: $2x = 11 - 3$, which simplifies to $2x = 8$. Then, divide both sides by 2 to get $x = 4$."
+    },
+    {
+      "id": 2,
+      "text": "What is the integral of $f(x) = x^2$?",
+      "options": [
+        "$$ \\frac{x^3}{3} + C $$",
+        "$$ 2x + C $$",
+        "$$ x^3 + C $$",
+        "$$ \\frac{x^2}{2} + C $$"
+      ],
+      "answer": 0,
+      "explanation": "The power rule for integration states that the integral of $x^n$ is $$\\frac{x^{n+1}}{n+1} + C$$. For $x^2$, this results in $$\\frac{x^3}{3} + C$$."
+    },
+    {
+      "id": 3,
+      "text": "According to Newton's Second Law, what is the formula for force?",
+      "options": [
+        "$F = ma$",
+        "$E = mc^2$",
+        "$v = d/t$",
+        "$P = IV$"
+      ],
+      "answer": 0,
+      "explanation": "Newton's Second Law of Motion states that the force ($F$) acting on an object is equal to the mass ($m$) of the object multiplied by its acceleration ($a$)."
+    }
+  ]
+}
