@@ -1,4 +1,4 @@
-Find good youtube video (on Russian) on the following topic:
+video (must): https://www.youtube.com/watch?v=-ltooSGq1K4
 
 ### Часть 1. Что такое отношение?
 
