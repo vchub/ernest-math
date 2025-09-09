@@ -1,7 +1,7 @@
 #### Homework
 
-1. <https://github.com/vchub/ernest-math/blob/main/common-factor.md>
-   Задачи в конце страницы
+1. <https://github.com/vchub/ernest-math/blob/main/proportions/t3.md>
+   Quiz 1, 2 в конце страницы
 
 2. Quiz: https://math-gym-e1325.web.app/quiz/xGbL7v98ceJA7vPLah4g
 
