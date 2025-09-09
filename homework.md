@@ -1,15 +1,18 @@
 #### Homework
 
+1. <https://github.com/vchub/ernest-math/blob/main/fractions/t0.md>
+   Quiz 1, 2 в конце страницы
+
 1. <https://github.com/vchub/ernest-math/blob/main/proportions/t3.md>
    Quiz 1, 2 в конце страницы
 
-2. Quiz: https://math-gym-e1325.web.app/quiz/xGbL7v98ceJA7vPLah4g
+1. Quiz: https://math-gym-e1325.web.app/quiz/xGbL7v98ceJA7vPLah4g
 
 ---
 
 - Залогиниться с гугл эккаунт
 - Сделать тест
-- Добавить vlad.chub@gmail в разделе:
+- Добавить me@gmail в разделе:
   Account -> Grant Viewing Access (форма)
 - Так-же добавьте гугл эккаунт родиля(ей), им нужно сначал залогинться на сайте
   https://math-gym-e1325.web.app
