@@ -3,6 +3,11 @@
 1. <https://github.com/vchub/ernest-math/blob/main/fractions/t0.md>
    Quiz 1, 2 в конце страницы
 
+2. Повторить квиз
+   https://math-gym-e1325.web.app/quiz/sggxCaR5BvPZw50Lkr5R
+
+Задачи простые, Большой объем для тренировки интуции. Делай, не пожалеешь.
+
 1. <https://github.com/vchub/ernest-math/blob/main/proportions/t3.md>
    Quiz 1, 2 в конце страницы
 
