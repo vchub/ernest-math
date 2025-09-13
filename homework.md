@@ -1,7 +1,12 @@
 #### Homework
 
-1. <https://github.com/vchub/ernest-math/blob/main/fractions/t0.md>
-   Quiz 1, 2 в конце страницы
+1. https://github.com/vchub/ernest-math/blob/main/factors/commutative.md
+   Quiz 1 https://math-gym-e1325.web.app/quiz/9ZoJ01QUKoZlTcjJueX2
+
+2. https://github.com/vchub/ernest-math/blob/main/chalenge/equation.md
+   Задачи 1 - 3
+
+---
 
 2. Повторить квиз
    https://math-gym-e1325.web.app/quiz/sggxCaR5BvPZw50Lkr5R
