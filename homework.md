@@ -1,10 +1,10 @@
 #### Homework
 
-1. https://github.com/vchub/ernest-math/blob/main/factors/commutative.md
-   Quiz 1 https://math-gym-e1325.web.app/quiz/9ZoJ01QUKoZlTcjJueX2
+1. https://github.com/vchub/ernest-math/blob/main/fractions/t1.md
+   Задачи: 1
 
 2. https://github.com/vchub/ernest-math/blob/main/chalenge/equation.md
-   Задачи 1 - 3
+   Задачи: 0 - 2
 
 ---
 
