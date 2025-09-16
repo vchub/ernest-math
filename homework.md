@@ -1,10 +1,13 @@
 #### Homework
 
 1. https://github.com/vchub/ernest-math/blob/main/fractions/t1.md
-   Задачи: 1
+   Homework: 1
 
 2. https://github.com/vchub/ernest-math/blob/main/chalenge/equation.md
-   Задачи: 0 - 2
+   Homework: 0 - 2
+
+3. https://github.com/vchub/ernest-math/blob/main/fractions/division.md
+   Homework: 1
 
 ---
 
