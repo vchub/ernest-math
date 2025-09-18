@@ -1,13 +1,13 @@
 #### Homework
 
-1. https://github.com/vchub/ernest-math/blob/main/fractions/t1.md
-   Homework: 1
+1. https://github.com/vchub/ernest-math/blob/main/fractions/mix-problems.md
+   Homework: 1-12
 
 2. https://github.com/vchub/ernest-math/blob/main/chalenge/equation.md
-   Homework: 0 - 2
+   Homework: 1-2
 
 3. https://github.com/vchub/ernest-math/blob/main/fractions/division.md
-   Homework: 1
+   Homework: 1-10
 
 ---
 

@@ -31,6 +31,23 @@ $\frac{5}{6} : 10$
 3.  Умножаем дроби: $\frac{5 \cdot 1}{6 \cdot 10} = \frac{5}{60}$.
 4.  Сокращаем: $\frac{5}{60} = \frac{1}{12}$.
 
+---
+
+## Домашнее задание
+
+1. $\frac{2}{5} : \frac{1}{3}$
+2. $\frac{7}{8} : \frac{3}{4}$
+3. $3\frac{1}{2} : \frac{1}{4}$
+4. $\frac{5}{9} : 2$
+5. $8 : \frac{4}{5}$
+6. $4\frac{2}{3} : 1\frac{1}{6}$
+7. $\frac{1}{2} \cdot \frac{4}{5} : \frac{2}{3}$
+8. $(3\frac{1}{4} + \frac{1}{2}) : 1\frac{3}{4}$
+9. $\frac{2}{3}x = \frac{5}{6}$ x = ?
+10. $\frac{y}{4} : \frac{3}{8} = 2$ y = ?
+
+---
+
 ## Homework
 
 1. https://math-gym-e1325.web.app/quiz/jECC9DYwCZvTjNsyX9yr
