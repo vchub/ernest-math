@@ -1,10 +1,13 @@
 #### Homework
 
 1. https://github.com/vchub/ernest-math/blob/main/fractions/equations.md
-   Homework: 1-12
+   Homework: 1-10
+
+   Должна быть сделана провека найденого решения. Без проверки решение не считается
+   выполненным.
 
 2. https://github.com/vchub/ernest-math/blob/main/chalenge/equation.md
-   Homework: 1-2
+   Homework: 6
 
 ---
 

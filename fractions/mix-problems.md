@@ -1,8 +1,3 @@
-make 10 problems for the following class:
-problems should be equations to find unknown
-use russian
-make text problems also
-
 ## Примеры
 
 ### Сложение смешанных дробей
