@@ -1,7 +1,10 @@
 Homework
 
-2. https://github.com/vchub/ernest-math/blob/main/chalenge/equation.md
-   Homework: 4, 5
+1. https://github.com/vchub/ernest-math/blob/main/old/chalenge/equation.md
+   Problems: 7
+
+1. https://github.com/vchub/ernest-math/blob/main/old/powers/t1.md
+   Problems: 1-10
 
 Пожалуйста, убедитесь, что домашнее задание соответствует следующим требованиям:
 
