@@ -4,7 +4,8 @@ Homework
    Problems: 7
 
 1. https://github.com/vchub/ernest-math/blob/main/old/powers/t1.md
-   Problems: 1-10
+   Problems: 1-6
+
 
 Пожалуйста, убедитесь, что домашнее задание соответствует следующим требованиям:
 
