@@ -15,6 +15,7 @@ jobs:
       - run: uv venv
       - run: source .venv/bin/activate && uv pip install jupyter-book
       - run: uv run jupyter-book build mybook
+      - run: touch mybook/_build/html/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: mybook/_build/html
