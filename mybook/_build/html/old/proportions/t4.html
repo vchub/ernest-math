@@ -1,0 +1,618 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>4. Несколько элементов в пропорции &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'old/proportions/t4';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../content/chapter1.html">Chapter 1: Algebra</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../content/equations1.html">Решение линейных уравнений</a></li>
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../../plot.html">Plot Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/vchub/ernest-math" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/vchub/ernest-math/issues/new?title=Issue%20on%20page%20%2Fold/proportions/t4.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/old/proportions/t4.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>4. Несколько элементов в пропорции</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">4. Несколько элементов в пропорции</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#the-legend-of-the-coder-s-sword-a-roblox-adventure"><strong>The Legend of the Coder’s Sword: A Roblox Adventure</strong></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-forging-the-mystic-alloy-the-ratio-problem"><strong>Part 1: Forging the Mystic Alloy (The Ratio Problem)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-journey-to-the-secret-forge-the-map-scale-problem"><strong>Part 2: Journey to the Secret Forge (The Map Scale Problem)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-3-powering-the-forge-the-percentage-problem"><strong>Part 3: Powering the Forge (The Percentage Problem)</strong></a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <p>add example of 3 element proportion to the following text</p>
+<hr class="docutils" />
+<p>example:</p>
+<section id="id1">
+<h1>4. Несколько элементов в пропорции<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<p><strong>Условие:</strong>
+<em>Сплав состоит из меди, олова и цинка, взятых в отношении 5 : 2 : 1. Найди, сколько надо взять каждого из этих веществ, чтобы получить 435,2 кг сплава.</em></p>
+<p>Здесь мы используем тот же самый метод “частей”, который обсудили ранее.</p>
+<ol class="arabic simple">
+<li><p><strong>Находим общее количество частей в сплаве.</strong>
+Отношение медь : олово : цинк = 5 : 2 : 1.
+Складываем все части: <span class="math notranslate nohighlight">\(5 + 2 + 1 = 8\)</span> (частей).
+Весь сплав состоит из 8 равных “частей”.</p></li>
+<li><p><strong>Находим, сколько килограмм приходится на одну часть.</strong>
+Общий вес сплава — 435,2 кг.
+Делим общий вес на количество частей:
+<span class="math notranslate nohighlight">\(435,2 \text{ кг} \div 8 \text{ частей} = 54,4 \text{ кг}\)</span>.
+Итак, одна часть весит 54,4 кг.</p></li>
+<li><p><strong>Рассчитываем вес каждого металла.</strong>
+Теперь мы просто умножаем вес одной части на количество частей каждого металла из отношения.</p>
+<ul class="simple">
+<li><p><strong>Медь:</strong> ей соответствует 5 частей.
+<span class="math notranslate nohighlight">\(5 \cdot 54,4 \text{ кг} = 272 \text{ кг}\)</span>.</p></li>
+<li><p><strong>Олово:</strong> ему соответствует 2 части.
+<span class="math notranslate nohighlight">\(2 \cdot 54,4 \text{ кг} = 108,8 \text{ кг}\)</span>.</p></li>
+<li><p><strong>Цинк:</strong> ему соответствует 1 часть.
+<span class="math notranslate nohighlight">\(1 \cdot 54,4 \text{ кг} = 54,4 \text{ кг}\)</span>.</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>Проверка:</strong> Чтобы убедиться, что мы все посчитали верно, сложим вес всех металлов:
+<span class="math notranslate nohighlight">\(272 + 108,8 + 54,4 = 435,2\)</span> кг.
+Сумма совпала с общим весом сплава, значит, задача решена правильно.</p>
+<p><strong>Ответ для задания:</strong></p>
+<ul class="simple">
+<li><p>Для сплава надо взять:</p>
+<ul>
+<li><p><strong>272</strong> кг меди,</p></li>
+<li><p><strong>108,8</strong> кг олова,</p></li>
+<li><p><strong>54,4</strong> кг цинка.</p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<p>text:</p>
+</section>
+<section id="the-legend-of-the-coder-s-sword-a-roblox-adventure">
+<h1><strong>The Legend of the Coder’s Sword: A Roblox Adventure</strong><a class="headerlink" href="#the-legend-of-the-coder-s-sword-a-roblox-adventure" title="Link to this heading">#</a></h1>
+<p>Imagine you’re playing your favorite Roblox adventure game. You’ve just discovered a secret quest: <strong>The Legend of the Coder’s Sword</strong>. This sword is the most powerful item in the game, able to defeat any boss in a single hit! But you can’t just find it… you have to craft it.</p>
+<p>You find an ancient blueprint left behind by the game’s creator. It has three parts.</p>
+<section id="part-1-forging-the-mystic-alloy-the-ratio-problem">
+<h2><strong>Part 1: Forging the Mystic Alloy (The Ratio Problem)</strong><a class="headerlink" href="#part-1-forging-the-mystic-alloy-the-ratio-problem" title="Link to this heading">#</a></h2>
+<p>The blueprint says the sword’s blade must be made from a special <strong>Mystic Alloy</strong>. To create it, you need to mix two rare materials you’ve been collecting: <strong>Magma Ore</strong> and <strong>Void Crystals</strong>.</p>
+<p>The recipe is very specific: you must mix them in a ratio of <strong>2:5</strong>. That means for every <strong>2 parts</strong> of Magma Ore, you need exactly <strong>5 parts</strong> of Void Crystals. Any other mixture and the alloy will crumble!</p>
+<p>The blueprint says you need to forge a blade that weighs exactly <strong>350 grams</strong>.</p>
+<p><strong>The Challenge:</strong> How many grams of Magma Ore and Void Crystals do you need to melt together?</p>
+<p>This is a proportion problem! Let’s solve it just like in the guide:</p>
+<ol class="arabic simple">
+<li><p><strong>Find the total parts:</strong> The ratio is 2:5, so you have <span class="math notranslate nohighlight">\(2 + 5 = 7\)</span> total parts in your alloy.</p></li>
+<li><p><strong>Find the weight of one part:</strong> The total weight is 350g. So, one part weighs <span class="math notranslate nohighlight">\(350 \div 7 = 50\)</span> grams.</p></li>
+<li><p><strong>Calculate the weight of each material:</strong></p>
+<ul class="simple">
+<li><p><strong>Magma Ore</strong> needs 2 parts: <span class="math notranslate nohighlight">\(2 \times 50 \text{g} = 100\)</span> grams.</p></li>
+<li><p><strong>Void Crystals</strong> need 5 parts: <span class="math notranslate nohighlight">\(5 \times 50 \text{g} = 250\)</span> grams.</p></li>
+</ul>
+</li>
+</ol>
+<p>You mix 100g of Magma Ore and 250g of Void Crystals, and <em>CLANG</em>! You’ve successfully forged the blade.</p>
+</section>
+<section id="part-2-journey-to-the-secret-forge-the-map-scale-problem">
+<h2><strong>Part 2: Journey to the Secret Forge (The Map Scale Problem)</strong><a class="headerlink" href="#part-2-journey-to-the-secret-forge-the-map-scale-problem" title="Link to this heading">#</a></h2>
+<p>You have the blade, but you can’t finish the sword at a normal anvil. The blueprint shows a map to the <strong>Secret Forge</strong>, hidden on a remote island in the game.</p>
+<p>You pull out the map on your screen. In the corner, you see the <strong>scale: 1 : 500,000</strong>. This means 1 centimeter on your map represents 500,000 centimeters in the actual game world.</p>
+<p>You take out a ruler and measure the distance on the map from your location to the Secret Forge. It’s <strong>4 centimeters</strong>.</p>
+<p><strong>The Challenge:</strong> How far do you <em>actually</em> have to travel in the game, in kilometers?</p>
+<p>Let’s use proportions again:</p>
+<ol class="arabic simple">
+<li><p><strong>Set up the proportion:</strong> <span class="math notranslate nohighlight">\(\frac{1}{500,000} = \frac{4}{x}\)</span></p></li>
+<li><p><strong>Find the real distance in centimeters:</strong> <span class="math notranslate nohighlight">\(x = 4 \times 500,000 = 2,000,000\)</span> cm.</p></li>
+<li><p><strong>Convert to kilometers:</strong> This is the tricky part! Remember, there are 100,000 cm in 1 km.
+<span class="math notranslate nohighlight">\(2,000,000 \text{ cm} \div 100,000 = 20\)</span> kilometers.</p></li>
+</ol>
+<p>You need to sail your boat 20 km across the game’s ocean to reach the forge.</p>
+</section>
+<section id="part-3-powering-the-forge-the-percentage-problem">
+<h2><strong>Part 3: Powering the Forge (The Percentage Problem)</strong><a class="headerlink" href="#part-3-powering-the-forge-the-percentage-problem" title="Link to this heading">#</a></h2>
+<p>You arrive at the Secret Forge. It’s cold and dark. A message pops up: “Forge power level is critical. It must be at 100% to finish the sword.” You see a power generator that takes special <strong>Energy Cells</strong>.</p>
+<p>You look in your inventory and find a bag of them. The generator’s screen says: “<strong>450 power units currently active. This is 30% of the total power needed.</strong>”</p>
+<p><strong>The Challenge:</strong> How many total power units does the forge need?</p>
+<p>This is a classic percentage problem that proportions can solve:</p>
+<ol class="arabic simple">
+<li><p><strong>Set up the proportion:</strong> Let <span class="math notranslate nohighlight">\(x\)</span> be the total power needed (which is 100%). We know that 450 units is 30%.
+<span class="math notranslate nohighlight">\(\frac{450}{30} = \frac{x}{100}\)</span></p></li>
+<li><p><strong>Solve for x:</strong>
+<span class="math notranslate nohighlight">\(30 \times x = 450 \times 100\)</span>
+<span class="math notranslate nohighlight">\(30x = 45,000\)</span>
+<span class="math notranslate nohighlight">\(x = 45,000 \div 30 = 1500\)</span> power units.</p></li>
+</ol>
+<p>The forge needs a total of 1500 power units. You’ve got 450, so you still need to add <span class="math notranslate nohighlight">\(1500 - 450 = 1050\)</span> more. You use your Energy Cells, the forge roars to life at 100%, and you assemble the Coder’s Sword!</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./old/proportions"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">4. Несколько элементов в пропорции</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#the-legend-of-the-coder-s-sword-a-roblox-adventure"><strong>The Legend of the Coder’s Sword: A Roblox Adventure</strong></a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-forging-the-mystic-alloy-the-ratio-problem"><strong>Part 1: Forging the Mystic Alloy (The Ratio Problem)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-journey-to-the-secret-forge-the-map-scale-problem"><strong>Part 2: Journey to the Secret Forge (The Map Scale Problem)</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-3-powering-the-forge-the-percentage-problem"><strong>Part 3: Powering the Forge (The Percentage Problem)</strong></a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

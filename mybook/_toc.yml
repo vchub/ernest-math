@@ -6,6 +6,7 @@ format: jb-book
 root: intro
 chapters:
 - file: content/chapter1
+- file: content/equations1
 - file: plot
 - file: markdown
 - file: notebooks

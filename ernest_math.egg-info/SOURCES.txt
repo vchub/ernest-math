@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+ernest_math.egg-info/PKG-INFO
+ernest_math.egg-info/SOURCES.txt
+ernest_math.egg-info/dependency_links.txt
+ernest_math.egg-info/requires.txt
+ernest_math.egg-info/top_level.txt
